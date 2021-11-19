@@ -51,9 +51,9 @@ THEN it shows a recipe page
 
 GIVEN a login button on the navbar and I don't have an account
 WHEN I click it
-THEN it pops up a login form with login and singup button
-THEN I click the signup button
-THEN it shows me the singup page
+THEN it pops up a login form with login and sign-up button
+THEN I click the sign-up button
+THEN it shows me the sign-up page
 WHEN I complete the form and click submit
 THEN it shows me the account page and the login button on the navbar shows log out button  
 WHEN I click log out
