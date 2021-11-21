@@ -6,7 +6,6 @@ const withAuth = require('../utils/auth');
 
 
 
-
 // route to get all recipes
 router.get('/', async (req, res) => {
   try {
@@ -19,7 +18,7 @@ router.get('/', async (req, res) => {
       ],
     });
 
-    const recipes = recipeData.map((recipe) =>
+    const recipes = recipeData.map((recipe) => 
       recipe.get({ plain: true })
     );
     console.log(recipes);
