@@ -2,7 +2,7 @@ const loginFormHandler = async (event) => {
   // Stop the browser from submitting the form so we can do so with JavaScript
   event.preventDefault();
 
- 
+
   // Gather the data from the form elements on the page
   const email = document.querySelector('#email-login').value.trim();
   const password = document.querySelector('#password-login').value.trim();
@@ -17,12 +17,12 @@ const loginFormHandler = async (event) => {
 
     if (response.ok) {
         // If successful, redirect the browser to the account page
-      document.location.replace('/api/users/login');
+      document.location.replace('/userRecipe');
     } else {
       alert('Failed to log in');
     }
   }
-};
+};s
 
 
 

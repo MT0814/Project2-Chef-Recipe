@@ -4,7 +4,10 @@ async function newFormHandler(event) {
     const dishDesc = document.querySelector('#dish-desc').value.trim();
     const prepTime = document.querySelector('#prep-time').value.trim();
     const ingredients = document.querySelector('#ingredients').value.trim();
-    const directions = document.querySelector('#directions').value.trim();
+    const directions1 = document.querySelector('#directions1').value.trim();
+    const directions2 = document.querySelector('#directions2').value.trim();
+    const directions3 = document.querySelector('#directions3').value.trim();
+    const directions4 = document.querySelector('#directions4').value.trim();
     const image = document.querySelector('#formfile').value;
     const nutritionFacts = document.querySelector('#nutrition-facts').value.trim();
     // Send fetch request to add a new recipe
@@ -15,7 +18,10 @@ async function newFormHandler(event) {
         dishDesc,
         prepTime,
         ingredients,
-        directions,
+        directions1,
+        directions2,
+        directions3,
+        directions4,
         image,
         nutritionFacts
       }),

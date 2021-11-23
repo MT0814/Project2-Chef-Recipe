@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "user_id": 1,
     "dish": "Asparagus, Mushroom, Leek, and Cheese Galette",
     "dishPic": "/images/savory-spring-vegetable-galettes-vicky-wasik-leeks-asparagus-mushroom.webp",
@@ -12,7 +11,6 @@
     "directions": " Roll one portion into a 14-inch round."
     },
   {
-    "id": 2,
     "user_id": 2,
     "dish": "Lemony Broiled Potatoes With Halloumi Cheese",
     "dishPic": "/images/broiling-potato-haloumi.webp",
@@ -24,7 +22,6 @@
     "directions": " Roll one portion into a 14-inch round."
   },
   {
-    "id": 3,
     "user_id": 3,
     "dish": "Carciofi alla Romana: The Other Delicious Roman Artichoke Dish",
     "dishPic": "/images/artichokes-ala-romana.webp",
@@ -36,7 +33,6 @@
     "directions": " Roll one portion into a 14-inch round."
   },  
   {
-    "id": 4,
     "user_id": 4,
     "dish": "Grilled Oysters Recipe",
     "dishPic": "/images/grilled-oysters.webp",
@@ -49,7 +45,6 @@
     
   },
   {
-    "id": 5,
     "user_id": 5,
     "dish": "Charred Asparagus With Miso Béarnaise Sauce Recipe",
     "dishPic": "/images/asparagus-miso-bearnaise.webp",

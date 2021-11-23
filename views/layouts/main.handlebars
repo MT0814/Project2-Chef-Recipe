@@ -40,13 +40,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav text-center">
             <li class="nav-item">
+              {{#if logged_in}}
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" id="logout">Log Out</a>
+              {{else}}
               <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Log In</a>
+              {{/if}}
             </li>
-            {{#if logged_in}}
-            <nav>
-            <button class="btn" id="logout">Log Out</button>
-            </nav>
-            {{/if}}
             <li class="nav-item">
               <a class="nav-link" href="#">Recipes</a>
             </li>
@@ -54,11 +53,13 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li>
-              <a class="nav-link" href="/api/addrecipe">
+              {{#if logged_in}}
+              <a class="nav-link" href="/api/addRecipe">
                 <div class="tooltip-1"><i class="fa fa-plus plus-btn tooltip-1"></i><span class="tooltiptext">Add Your
                     Recipe!</span>
                 </div>
               </a>
+               {{else}}
             </li>
 
           </ul>
@@ -109,10 +110,6 @@
     crossorigin="anonymous"></script>
 
 
-  <!-- Only include the logout script if the user is logged in -->
-  {{#if logged_in}}
-  <script src="/js/logout.js"></script>
-  {{/if}}
 
   <!-- login Modal components-->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -144,14 +141,21 @@
           <div class="modal-footer form-group">
             <a href="/api/users/signup"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign
                 Up</button></a>
-            <a href="/login"><button type="submit" class="btn btn-orange" id="login">Log In</button></a>
+            {{#if has_recipe}}
+            <a href="/account-without-recipe"><button type="submit" class="btn btn-orange" id="login">Log In</button></a>
+            {{else}}
+            <a href="/account-recipe"><button type="submit" class="btn btn-orange" id="login">Log In</button></a>
+            {{/if}}
           </div>
 
         </form>
       </div>
     </div>
-  </div>
+  </div> 
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
 </body>
-<script src="/js/login.js"></script>
+
 
 </html>

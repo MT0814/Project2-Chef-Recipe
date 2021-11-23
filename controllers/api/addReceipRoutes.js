@@ -18,6 +18,11 @@ router.post('/', withAuth, async (req, res) => {
 });
 
 
+router.get ('/', (req,res) =>{
+  res.render('add-recipe')
+})
+
+
 // route to create/add a recipe  who is the chef? user.id-> user.name?
 router.post('/', async (req, res) => {
     try {

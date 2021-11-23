@@ -14,7 +14,7 @@ const signupFormHandler = async (event) => {
       });
       
       if (response.ok) {
-        document.location.replace('/');
+        document.location.replace('/account-without-recipe');
       } else {
         alert(response.statusText);
       }

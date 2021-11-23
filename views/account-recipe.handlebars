@@ -4,7 +4,7 @@
          {{#each recipes as |recipe|}}
             <div class="col-lg-4 col-sm-12 small-cards">
               <div class="card">
-                  <img src="https://www.seriouseats.com/thmb/IT-Fsrm7zVJWuDpPuUPHo3Y4fNE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__09__20170825-artichokes-ala-romana-vicky-wasik-3-2-1073d669511d4679a251bc77a8bdf44b.jpg" class="card-img-top" alt="...">
+                  <img src="{{recipe.dishPic}}}" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">{{recipe.dish}}</h5>
                     <p class="card-text">{{recipe.dishDesc}}</p>
