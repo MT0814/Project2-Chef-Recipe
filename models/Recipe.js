@@ -19,13 +19,13 @@ Recipe.init(
 
     dish: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
 
     dishPic: {
       type: DataTypes.STRING,
       allowNull: true,
-      primaryKey: true
+
     },
 
     filename: {
@@ -35,44 +35,44 @@ Recipe.init(
 
     chef: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
     prepTime: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
 
     nutrition_facts: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
     dishDesc: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
 
       
     },
 
     ingredients: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
 
     directions1: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
     directions2: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
     directions3: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
     directions4: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
     user_id: {
       type: DataTypes.INTEGER,

@@ -5,7 +5,12 @@ const { User } = require('../../models');
 
 router.post('/', async (req, res) => {
   try {
-    const userData = await User.create(req.body);
+    console.log(req.body)
+    if (req.body.password !== req.body.password2 ) {
+      return res.status(400).json({message: "passward not the same"})
+    }
+    const data = {name:req.body.name, email: req.body.email, password:req.body.password }
+    const userData = await User.create(data);
 
     req.session.save(() => {
       req.session.user_id = userData.id;
@@ -14,6 +19,7 @@ router.post('/', async (req, res) => {
       res.status(200).json(userData);
     });
   } catch (err) {
+    console.log(err)
     res.status(400).json(err);
   }
 });

@@ -13,14 +13,11 @@ router.post('/', withAuth, async (req, res) => {
 
     res.status(200).json(newRecipe);
   } catch (err) {
+    console.log(err)
     res.status(400).json(err);
   }
 });
 
-
-router.get ('/', (req,res) =>{
-  res.render('add-recipe')
-})
 
 
 // route to create/add a recipe  who is the chef? user.id-> user.name?
