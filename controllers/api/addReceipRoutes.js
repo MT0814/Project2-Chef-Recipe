@@ -27,7 +27,10 @@ router.post('/', async (req, res) => {
         dish: req.body.dish,
         dishDesc: req.body.dishDesc,
         ingredients: req.body.ingredients,
-        directions: req.body.directions,
+        directions1: req.body.directions1,
+        directions2: req.body.directions2,
+        directions3: req.body.directions3,
+        directions4: req.body.directions4,
         nutrition_facts: req.body.nutrition_facts,
         dishPic: req.body.dishPic
       });

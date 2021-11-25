@@ -4,14 +4,16 @@ async function newFormHandler(event) {
     const response = await fetch('/:id', {
       method: 'POST',
       body: JSON.stringify({
-        dishName,
+        dish,
         dishDesc,
         prepTime,
         ingredients,
-        directions,
-        image,
+        directions1,
+        directions2,
+        directions3,
+        directions4,
         dishPic,
-        nutritionFacts
+        nutrition_facts
       }),
       headers: {
         'Content-Type': 'application/json',

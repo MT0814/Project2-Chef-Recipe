@@ -6,12 +6,12 @@ const userData = require('./userData.json');
 const recipeData = require('./recipeData.json');
 
 
-const stringified = recipeData.map(recipe => {
-  recipe.ingredients = JSON.stringify(recipe.ingredients);
-  recipe.directions = JSON.stringify(recipe.directions);
-  return recipe;
-  });
-  console.log(stringified)
+// const stringified = recipeData.map(recipe => {
+//   recipe.ingredients = JSON.stringify(recipe.ingredients);
+//   recipe.directions = JSON.stringify(recipe.directions);
+//   return recipe;
+//   });
+//   console.log(stringified)
 
 
 const seedDatabase = async () => {

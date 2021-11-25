@@ -22,9 +22,7 @@ router.get('/', async (req, res) => {
       recipe.get({ plain: true })
     );
     console.log(recipes);
-    res.render('homepage', {
-      recipes
-    });
+    res.render('homepage', {recipes});
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
