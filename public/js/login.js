@@ -17,12 +17,12 @@ const loginFormHandler = async (event) => {
 
     if (response.ok) {
         // If successful, redirect the browser to the account page
-      document.location.replace('/account');
+      document.location.replace('/account-recipe');
     } else {
       alert('Failed to log in');
     }
   }
-};s
+};
 
 
 
