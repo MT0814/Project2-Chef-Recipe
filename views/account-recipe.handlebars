@@ -13,7 +13,7 @@
                     <br />
                     <div class="hstack">
                         <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
-                        <div class="ms-auto"><i class="fa fa-trash-o" id="delete" type="submit" style="font-size:35px;"></i></div>
+                        <div class="ms-auto"><i class="fa fa-trash-o" data-id="{{recipe.id}}" type="submit" style="font-size:35px;"></i></div>
                     </div>
                 </div>
             </div>
@@ -25,9 +25,11 @@
 {{else}}
 <!-- Account without Recipe -->
 <div class="container-fluid empty-text">
-    <p class="text-center">Welocme!
-        {{username}}It's empty now. Start to create your recipe today!</p>
+    <p class="text-center welcome">
+        <span class="user">{{username}}</span>, Welocme! It's empty now. Start to create your recipe today!</p>
     <div class="text-center"><img src="https://media4.giphy.com/media/h2HTvVuKVS4daQaVuS/giphy.gif" width="50%"
             alt="cooking" /></div>
 </div>
 {{/if}}
+
+<script src="/js/delete-recipe.js"></script>
