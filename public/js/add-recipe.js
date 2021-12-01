@@ -12,7 +12,7 @@ async function newFormHandler(event) {
   const chefName = document.querySelector('#chef-name').value.trim();
   const idName = document.querySelector('#id-name').value.trim();
   // const image = document.querySelector('#formfile').value;
-  const dishPic ="/image/classic-shrimp-scampi.jpeg"
+  const dishPic ="/images/salmon.webp"
   const nutrition_facts = document.querySelector('#nutrition-facts').value.trim();
   // Send fetch request to add a new recipe
   const response = await fetch(`/api/add-recipe`, {
