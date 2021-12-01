@@ -66,7 +66,7 @@ GIVEN a navbar presented login, your recipe, and contact buttons
 WHEN I click the login button 
 THEN it pops up a login form
 WHEN I click your recipe button and I have not logged in
-THEN it pops up an alert "Please log in to add your recipe" 
+THEN it pops up an alert "Log in please" 
 WHEN I logged in
 THEN it shows the recipes I created
 WHEN I click the contact button 
