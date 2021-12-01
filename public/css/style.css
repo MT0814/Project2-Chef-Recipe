@@ -218,7 +218,10 @@ h5 {
     font-size: 1.3em;
   }
 
-  .list-group-item,
+  h4 {
+    font-size: 1.2em;
+  }
+
   p {
     font-size: 1em;
   }
@@ -237,7 +240,10 @@ h5 {
   .nav-link {
     font-size: 1.2em;
   }
-  .list-group-item,
+  h4 {
+    font-size: 1.1em;
+  }
+
   p {
     font-size: 1em;
   }
