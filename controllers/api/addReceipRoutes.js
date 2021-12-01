@@ -4,21 +4,6 @@ const Recipe = require('../../models/Recipe');
 const withAuth = require('../../utils/auth');
 
 
-// router.post('/', withAuth, async (req, res) => {
-//   try {
-//     const newRecipe = await Recipe.create({
-//       ...req.body,
-//       user_id: req.session.user_id,
-//     });
-
-//     res.status(200).json(newRecipe);
-//   } catch (err) {
-//     console.log(err)
-//     res.status(400).json(err);
-//   }
-// });
-
-
 
 // route to create/add a recipe  who is the chef? user.id-> user.name?
 router.post('/',  withAuth, async (req, res) => {

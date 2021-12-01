@@ -52,7 +52,7 @@ main {
 .navbar-light .navbar-nav .nav-link {
   position: relative;
   color: var(--main);
-  font-size: 1.2em;
+  font-size: 1.15em;
   font-weight: 400;
   margin-right: 0.8em;
   margin-bottom: 20px;
@@ -88,24 +88,14 @@ li.nav-item {
   display: inline-block;
 }
 
-.tooltiptext {
+.tooltip1text {
   font-size: 0.8em;
   font-weight: 500;
   margin-left: 10px;
 }
 
-.tooltip-1 .tooltiptext::after {
-  content: " ";
-  position: absolute;
-  top: 50%;
-  right: 100%; /* To the left of the tooltip */
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent orange transparent transparent;
-}
 
-.tooltip-1 .tooltiptext {
+.tooltip-1 .tooltip1text {
   visibility: hidden;
   width: 12em;
   background-color: orange;
@@ -116,15 +106,32 @@ li.nav-item {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
   /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
   opacity: 0;
   transition: opacity 1s;
 }
 
-.tooltip-1:hover .tooltiptext {
+.tooltip-1 .tooltip1text::after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent orange transparent transparent;
+}
+
+
+.tooltip-1:hover .tooltip1text {
   visibility: visible;
   opacity: 1;
 }
+
+
+
 
 /* Cards */
 .top-cards {
