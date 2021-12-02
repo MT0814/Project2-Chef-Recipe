@@ -133,6 +133,7 @@ Back End
 
 ## Future Improvement / Development
 
+- Let the user can add an image for the recipe 
 - Add edit recipe and sharing feature
 - Add a rating feature
 
