@@ -133,9 +133,14 @@ Back End
 
 ## Future Improvement / Development
 
-- Add delete recipes feature
 - Add edit recipe and sharing feature
 - Add a rating feature
+
+## Others
+
+Screenshots
+![screenshot](./assets/chef-recipe-1.herokuapp.com_.png)
+[Published website](https://chef-recipe-1.herokuapp.com/)
 
 ---
 
