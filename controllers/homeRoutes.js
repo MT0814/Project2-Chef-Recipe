@@ -66,7 +66,7 @@ router.get('/recipe/:id', async (req, res) => {
       return;
     }
     const recipe = recipeData.get({ plain: true });
-    res.render('recipe', recipe);
+    res.render('recipe', {recipe, username: req.session.username});
   } catch (err) {
     res.status(500).json(err);
   };
