@@ -24,6 +24,7 @@ router.get("/:id", async (req, res) => {
 router.delete('/:id', async (req, res) => {
   try {
     const recipeData = await Recipe.destroy({ where: { id: req.params.id } })
+    console.log('recipeData: ', recipeData),
     res.render('account-recipe', {
       logged_in: req.session.logged_in,
       username: req.session.username
