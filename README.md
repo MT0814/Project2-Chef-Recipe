@@ -62,11 +62,13 @@ WHEN I click one of cards' recipe button
 THEN I am able to enter that card's recipe
 THEN it shows a recipe page with dish name, dish description, preparation & cooking time, ingredients, directions with 4 steps, and then nutrition facts
 
-GIVEN a navbar presented login, your recipe, and contact buttons
+GIVEN a navbar presented a "Chef Recipe" logo, login, your recipe, and contact buttons
+WHEN I click the "Chef Recipe" logo button 
+THEN it brings me to the homepage
 WHEN I click the login button 
 THEN it pops up a login form
 WHEN I click your recipe button and I have not logged in
-THEN it pops up an alert "Log in please" 
+THEN it pops up a tooltip "Log in please" 
 WHEN I logged in
 THEN it shows the recipes I created
 WHEN I click the contact button 
