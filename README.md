@@ -35,7 +35,7 @@ AS A user I WANT to see some recipes cards with a dish name, a brief description
 As A user I WANT to see a recipe button on a recipe card SO THAT I can click it to enter a recipe page
 
 As A user I WANT to see a recipe page with dish name, short description, prep and cooking time, ingredients, directions, and nutrition facts
- 
+
 AS A user I WANT to sign up SO THAT I can add recipes and save them on the recipe website
 
 AS A user I WANT to login the recipe website SO THAT I can add recipes and save them on the recipe website
@@ -51,7 +51,6 @@ AS A user I WANT to see my recipes showed on the homepage of the website SO THAT
 AS A user I WANT to log out the recipe website SO THAT I can keep my account safe
 
 AS A user I WANT to know the recipe website's contact information SO THAT I can contact the recipe website
-
 ```
 
 ## Acceptance Criteria
@@ -63,15 +62,15 @@ THEN I am able to enter that card's recipe
 THEN it shows a recipe page with dish name, dish description, preparation & cooking time, ingredients, directions with 4 steps, and then nutrition facts
 
 GIVEN a navbar presented a "Chef Recipe" logo, login, your recipe, and contact buttons
-WHEN I click the "Chef Recipe" logo button 
+WHEN I click the "Chef Recipe" logo button
 THEN it brings me to the homepage
-WHEN I click the login button 
+WHEN I click the login button
 THEN it pops up a login form
 WHEN I click your recipe button and I have not logged in
-THEN it pops up a tooltip "Log in please" 
+THEN it pops up a tooltip "Log in please"
 WHEN I logged in
 THEN it shows the recipes I created
-WHEN I click the contact button 
+WHEN I click the contact button
 THEN it brings me to the contact information
 
 GIVEN I don't have an account
@@ -135,15 +134,18 @@ Back End
 
 ## Future Improvement / Development
 
-- Be able to add an image while adding a recipe 
+- Be able to add an image while adding a recipe
 - Add edit recipe and sharing feature
 - Add a rating feature
 
 ## Others
 
-Screenshots
+Website Screenshots
 ![screenshot](./assets/chef-recipe-1.herokuapp.com_.png)
-[Published website](https://chef-recipe-1.herokuapp.com/)
+
+Please click [here](https://chef-recipe-1.herokuapp.com/) for the Chef Recipe website
+
+Please click [here](https://drive.google.com/drive/folders/1X7Lffj1-SK8XnmeGp2y7EchXb7nExpmG?usp=sharing) for the Chef Recipe keynote and pdf file
 
 ---
 
