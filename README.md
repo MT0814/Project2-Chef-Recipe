@@ -135,7 +135,7 @@ Back End
 
 ## Future Improvement / Development
 
-- Let the user can add an image for the recipe 
+- Be able to add an image while adding a recipe 
 - Add edit recipe and sharing feature
 - Add a rating feature
 
