@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef Recipes</title>
     <link rel="webtag icon"
-    href="images copy/9721038191595501126-32.png"
-    alt="chef icon">
+        href="images copy/9721038191595501126-32.png"
+        alt="chef icon">
     <!-- fontawesome css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -20,7 +20,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
    
     <!-- css -->
-    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="../public/css/style.css">
    
 
 <body>
@@ -34,16 +34,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav text-center">
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Log Out</a>
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" >Log Out</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Recipes</a>
+            <a class="nav-link" href="#">Recipes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li>
-            <a class="nav-link" href="add-recipe.html"><div class="tooltip-1"><i class="fa fa-plus plus-btn tooltip-1"></i><span class="tooltiptext">Add Your Recipe!</span>
+            <a class="nav-link" href="add-recipe.html"><div class="tooltip-1"><i class="fa fa-plus plus-btn tooltip-1"></i><span class="tooltip1text">Add Your Recipe!</span>
             </div></a>
           </li>
         </ul>
@@ -52,12 +52,59 @@
   </nav>
   
   
-  
+
   <main class="container container-fluid mt-main">
+
+   
     <!-- Account Recipe Cards -->
-    <div class="container-fluid empty-text">
-        <p class="text-center">It's empty now. Start to create your recipe today!</p>
-        <div class="text-center"><img src="https://media4.giphy.com/media/h2HTvVuKVS4daQaVuS/giphy.gif" width="50%" alt="cooking"></div>
+    <div class="container-fluid" id="recipes">
+        <div class="row account-cards">
+            <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-12 small-cards">
+              <div class="card">
+                  <img src="https://www.seriouseats.com/thmb/IT-Fsrm7zVJWuDpPuUPHo3Y4fNE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__09__20170825-artichokes-ala-romana-vicky-wasik-3-2-1073d669511d4679a251bc77a8bdf44b.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Carciofi alla Romana</h5>
+                    <p class="card-text">Braised Roman-style artichokes are cooked gently in a mixture of white wine, olive oil, garlic, and herbs.</p>
+    
+                    <br>
+                    <div class="hstack">
+                        <a href="#" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>            
+                        <div class="ms-auto"><i class="fa fa-trash-o" style="font-size:35px;"></i></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-12 small-cards">
+              <div class="card">
+                  <img src="https://www.seriouseats.com/thmb/8-ETyfpkS_elFd22z3mX6DuMX4U=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__01__20180107-bivalve-recipes-roundup-10-10b5edbb2ee9469ab9ff21a3b2ca6143.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Grilled Oysters for Shellfish Lovers</h5>
+                    <p class="card-text">The flavored butters don't overpower the oysters, but they do soften their flavor enough to make this a great dish for oyster novices.</p>
+
+                    <br>
+                          <div class="hstack">
+                        <a href="#" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>            
+                        <div class="ms-auto"><i class="fa fa-trash-o" style="font-size:35px;"></i></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-12 small-cards">
+              <div class="card">
+                  <img src="https://www.seriouseats.com/thmb/U1Ha0PXbUEcTL8M3wYo-8DrmgFA=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__03__20190321-asparagus-miso-bearnaise-vicky-wasik-21-038cd7ef521a4bd087e9a7f77c5932a0.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Asparagus Goes With Miso Béarnaise</h5>
+                    <p class="card-text">For an updated and easy at-home take on a classic steakhouse side dish, cook asparagus hard and fast, and give foolproof béarnaise and umami boost.</p>
+
+                    <br>
+                          <div class="hstack">
+                        <a href="#" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>            
+                        <div class="ms-auto"><i class="fa fa-trash-o" style="font-size:35px;"></i></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
     </div>
   </main>
 
@@ -77,7 +124,7 @@
           <li class="mb-2">Designed and built by Chef Recipes Team.</li>
           <li class="mb-2">© 2021 Chef Recipes Team. All Rights Reserved.</li>
           <li><a href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a></li>
-         
+    
         </ul>
       </div>
 </footer>
