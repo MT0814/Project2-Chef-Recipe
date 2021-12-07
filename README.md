@@ -129,9 +129,9 @@ Back End
 - Seeds
 - Authentication (express-session and cookies)
 - Environment Variables
-- compression <new package>
-- web api Cloudinary <under construction>
-- npm package multer <under construction>
+- compression (new package)
+- web api Cloudinary (under construction)
+- npm package multer (under construction)
 
 ## Future Improvement / Development
 
