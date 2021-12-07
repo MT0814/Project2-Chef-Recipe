@@ -118,6 +118,7 @@ Font End
 
 - HTML/ CSS/ Bootstrap ➡ Millie
 - Javascript ➡ Millie
+- README ➡ Millie
 
 Back End
 
