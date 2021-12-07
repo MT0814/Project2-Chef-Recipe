@@ -116,22 +116,25 @@ THEN it deletes the recipe card
 
 Font End
 
-- HTML / CSS / Bootstrap
-- Javascript
+- HTML/ CSS/ Bootstrap ➡ Millie
+- Javascript ➡ Millie
 
 Back End
 
 - Node.js
 - Express.js
-- Config (connection.js)
-- MVC: Models (Recipe/ User), Controllers (routes), View (handlebars)
-- Database (MySQL)
-- Seeds
-- Authentication (express-session and cookies)
+- Config (connection.js) ➡ Millie & Kaden
+- MVC
+- Models (Recipe/ User) ➡ Millie & Kaden 
+- Controllers (routes) ➡ Millie 
+- View (handlebars) ➡ Millie
+- Database (MySQL) 
+- Seeds ➡ Kaden & Millie
+- Authentication (express-session and cookies) ➡ Kaden & Millie
 - Environment Variables
-- compression (new package)
-- web api Cloudinary (under construction)
-- npm package multer (under construction)
+- Compression (new package) ➡ Millie
+- Web api Cloudinary (under construction) ➡ Kaden
+- Published to Heroku ➡ Millie
 
 ## Future Improvement / Development
 
@@ -146,7 +149,7 @@ Website Screenshots
 
 Please click [here](https://chef-recipe-1.herokuapp.com/) for the Chef Recipe website
 
-Please click [here](https://drive.google.com/drive/folders/1X7Lffj1-SK8XnmeGp2y7EchXb7nExpmG?usp=sharing) for the Chef Recipe keynote and pdf file
+Please click [here](https://drive.google.com/drive/folders/1X7Lffj1-SK8XnmeGp2y7EchXb7nExpmG?usp=sharing) for the Chef Recipe keynote and pdf file (presentation materials)
 
 ---
 
