@@ -134,6 +134,7 @@ Back End
 - Environment Variables
 - Compression (new package) ➡ Millie
 - Web api Cloudinary (under construction) ➡ Kaden
+- Multer (under construction) ➡ Kaden
 - Published to Heroku ➡ Millie
 
 ## Future Improvement / Development
