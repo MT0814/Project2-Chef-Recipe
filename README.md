@@ -112,24 +112,22 @@ THEN it deletes the recipe card
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Technology Used
+## Technology Used & Task Owner
 
 Font End
 
 - HTML/ CSS/ Bootstrap ➡ Millie
 - Javascript ➡ Millie
-- README ➡ Millie
 
 Back End
 
 - Node.js
 - Express.js
 - Config (connection.js) ➡ Millie & Kaden
-- MVC
-- Models (Recipe/ User) ➡ Millie & Kaden 
-- Controllers (routes) ➡ Millie 
-- View (handlebars) ➡ Millie
-- Database (MySQL) 
+- MVC: Models (Recipe/ User) ➡ Millie & Kaden
+- MVC: Controllers (routes) ➡ Millie
+- MVC: View (handlebars) ➡ Millie
+- Database (MySQL)
 - Seeds ➡ Kaden & Millie
 - Authentication (express-session and cookies) ➡ Kaden & Millie
 - Environment Variables
@@ -137,6 +135,9 @@ Back End
 - Web api Cloudinary (under construction) ➡ Kaden
 - Multer (under construction) ➡ Kaden
 - Published to Heroku ➡ Millie
+- README ➡ Millie
+
+### Other Tasks
 
 ## Future Improvement / Development
 
@@ -144,7 +145,12 @@ Back End
 - Add edit recipe and sharing feature
 - Add a rating feature
 
-## Others
+## Other Tasks Owner
+
+- Build a Repo/brunches in GitHub ➡ Kartiki
+- User Story ➡ Millie
+- Acceptance Criteria ➡ Millie
+- PowerPoint (Keynote) ➡ Millie
 
 Website Screenshots
 ![screenshot](./assets/chef-recipe-1.herokuapp.com_.png)
