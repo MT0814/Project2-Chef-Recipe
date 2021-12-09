@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -114,15 +114,7 @@ li.nav-item {
   transition: opacity 1s;
 }
 
-/* .tooltip-1 .tooltip1text::after {
-  content: " ";
-  position: absolute;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent orange transparent transparent;
-} */
+
 
 
 .tooltip-1:hover .tooltip1text {
@@ -155,6 +147,11 @@ li.nav-item {
   overflow: hidden;
 }
 
+/* recipe page */
+h4 {
+  font-weight:500;
+}
+
 /* footer */
 .py-5 {
   padding-top: 2em !important;
@@ -183,7 +180,7 @@ footer {
 
 h5 {
   font-size: 1.1em;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--main);
 }
 
@@ -218,6 +215,7 @@ h5 {
 
   h4 {
     font-size: 1.2em;
+    font-weight:600;
   }
 
   p {
@@ -225,6 +223,7 @@ h5 {
   }
   h5 {
     font-size: 0.9em;
+    font-weight: 600;
   }
 }
 
@@ -240,6 +239,7 @@ h5 {
   }
   h4 {
     font-size: 1.1em;
+    font-weight:600;
   }
 
   p {
@@ -248,6 +248,7 @@ h5 {
 
   h5 {
     font-size: 0.9em;
+    font-weight: 600;
   }
 }
 
