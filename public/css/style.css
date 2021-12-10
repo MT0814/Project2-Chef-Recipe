@@ -26,6 +26,11 @@ main {
 }
 
 /* Navbar */
+
+.chef-icon {
+  margin-top: -7px;
+}
+
 .collapse.navbar-collapse {
   margin-top: 2%;
 }
@@ -91,22 +96,22 @@ li.nav-item {
 .tooltip1text {
   font-size: 0.8em;
   font-weight: 500;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 
 .tooltip-1 .tooltip1text {
   visibility: hidden;
-  width: 12em;
+  width: 8em;
   background-color: orange;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 2px 2px 2px 2px;
+  /* padding: 2px 1px 2px 1px; */
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 150%;
+  bottom: 100%;
   left: 50%;
   margin-left: -60px;
   /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
