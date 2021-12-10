@@ -152,7 +152,7 @@ Back End
 - Acceptance Criteria ➡ Millie
 - PowerPoint (Keynote) ➡ Millie
 
-Website Screenshots
+Website Screenshot
 ![screenshot](./assets/chef-recipe.png)
 
 Please click [here](https://chef-recipe-1.herokuapp.com/) for the Chef Recipe website
