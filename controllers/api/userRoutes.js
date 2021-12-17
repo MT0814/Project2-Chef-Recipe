@@ -5,7 +5,7 @@ const { User } = require('../../models');
 // sign up 
 router.post('/', async (req, res) => {
   try {
-    console.log(req.body, 'kadens body');
+
     if (req.body.password !== req.body.password2 ) {
       return res.status(400).json({message: "Passward is not the same"})
     }
