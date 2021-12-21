@@ -28,6 +28,23 @@
     "name": "Millie",
     "email": "millie@me.com",
     "password": "123456789"
+  },
+  {
+    "name": "Jenny Dorsey",
+    "email": "Jenny@me.com",
+    "password": "123456789"
+  },
+  {
+    "name": "Reem Kassis",
+    "email": "Reem@me.com",
+    "password": "123456789"
+  },  {
+    "name": "Stella Parks",
+    "email": "Stella@me.com",
+    "password": "123456789"
   }
   
 ]
+
+
+

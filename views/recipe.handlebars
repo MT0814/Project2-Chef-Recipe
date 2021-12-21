@@ -1,22 +1,23 @@
 <!-- a recipe page -->
 
 <div class="container-fluid img-center" id="recipes">
-      <img class="recipe-image" src="{{recipe.dishPic}}" class="img-fluid" alt="{{recipe.dish}}">
+      
       <div>
         <h3 class="text-orange">{{recipe.dish}}</h3>
         <p class="text-center mt-3">{{recipe.dishDesc}}</p>
       </div>
+      <img class="recipe-image" src="{{recipe.dishPic}}" class="img-fluid" alt="{{recipe.dish}}">
       <div>
         <h4 class="mt-x">Preparation & Cooking Time</h4>
-        <p class="text-center mt-3">{{recipe.prepTime}}</p>
+        <p class="mt-3 recipe-text">{{recipe.prepTime}}</p>
       </div>
       <div>
         <h4 class="mt-x">Ingredients</h4>
-        <p class="text-center mt-3">{{recipe.ingredients}}</p>
+        <p class="mt-3 recipe-text">{{recipe.ingredients}}</p>
       </div>
       <div>
         <h4 class="mt-x">Directions</h4>
-        <table class="table table-border mt-3">
+        <table class="table table-border mt-3 recipe-text">
           <tbody>
             <tr>
               <th scope="row">1</th>
@@ -39,7 +40,7 @@
       </div>
       <div>
         <h4 class="mt-x">Nutrition Facts</h4>
-        <p class="text-center mt-3 mb-5">{{recipe.nutrition_facts}}</p>
+        <p class=" mt-3 mb-5 recipe-text">{{recipe.nutrition_facts}}</p>
       </div>
       
     

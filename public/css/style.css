@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
@@ -50,15 +50,14 @@ main {
   color: orange;
   font-size: 1.8em;
   font-weight: 600;
-  letter-spacing: 0.08em;
   margin-left: 0.5em;
 }
 
 .navbar-light .navbar-nav .nav-link {
   position: relative;
-  color: var(--main);
+  color: rgb(82, 82, 82);
   font-size: 1.15em;
-  font-weight: 400;
+  font-weight: 300;
   margin-right: 0.8em;
   margin-bottom: 20px;
   text-decoration: none;
@@ -99,7 +98,6 @@ li.nav-item {
   /* margin-left: 10px; */
 }
 
-
 .tooltip-1 .tooltip1text {
   visibility: hidden;
   width: 8em;
@@ -119,14 +117,10 @@ li.nav-item {
   transition: opacity 1s;
 }
 
-
-
-
 .tooltip-1:hover .tooltip1text {
   visibility: visible;
   opacity: 1;
 }
-
 
 /* Cards */
 .top-cards {
@@ -154,7 +148,7 @@ li.nav-item {
 
 /* recipe page */
 h4 {
-  font-weight:500;
+  font-weight: 500;
 }
 
 /* footer */
@@ -165,7 +159,6 @@ h4 {
 
 h2.fs-5 {
   color: orange;
-  letter-spacing: 0.065em;
   font-weight: 600;
 }
 
@@ -175,6 +168,9 @@ h2.fs-5 {
 a {
   text-decoration: none;
   color: rgb(129, 129, 129);
+}
+a:hover {
+  color: orange;
 }
 
 footer {
@@ -208,7 +204,6 @@ h5 {
 /* Mobile Responsive */
 
 @media screen and (max-width: 576px) {
-
   .navbar .navbar-brand {
     font-size: 1.4em;
   }
@@ -220,7 +215,7 @@ h5 {
 
   h4 {
     font-size: 1.2em;
-    font-weight:600;
+    font-weight: 600;
   }
 
   p {
@@ -233,7 +228,6 @@ h5 {
 }
 
 @media screen and (max-width: 478px) {
-
   .navbar .navbar-brand {
     font-size: 1.2em;
   }
@@ -244,7 +238,7 @@ h5 {
   }
   h4 {
     font-size: 1.1em;
-    font-weight:600;
+    font-weight: 600;
   }
 
   p {
@@ -303,16 +297,24 @@ h5 {
 
 .mt-x {
   margin-top: 5%;
-}
-
-.text-left{
+  font-weight: 600;
+  line-height: 2em;
+  color: rgb(77, 77, 77);
   text-align: left;
 }
 
-.table-border{
+.recipe-text {
+  text-align: left;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.table-border {
   border: transparent;
 }
-td{
+td {
   text-align: left;
 }
 /* account-recipe page */
@@ -327,12 +329,12 @@ td{
 
 /* account with no recipe page */
 .welcome {
- font-size:1.1em;
- letter-spacing: 0.085em;
- font-weight: 600;
+  font-size: 1.1em;
+  letter-spacing: 0.085em;
+  font-weight: 600;
 }
 
-.user { 
+.user {
   color: orange;
   font-weight: 700;
 }

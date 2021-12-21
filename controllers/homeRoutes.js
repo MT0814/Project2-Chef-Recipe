@@ -3,24 +3,6 @@ const { User } = require('../models');
 const Recipe = require('../models/Recipe');
 const withAuth = require('../utils/auth');
 
-
-// router.post('/signup', async (req, res) => {
-//   try {
-//     console.log(req, 'signup in homeRoutes.js')
-//     const userDate = await User.create ({
-//       name: req.body.name,
-//       email: req.body.email,
-//       password: req.body.password
-//     })
-
-//     res.render('account-recipe', {logged_in:true, username: req.body.name})
-
-//   } catch (err) {
-//     console.log(err);
-//     res.status(500).json(err);
-//   }
-// })
-
 // route to get all recipes
 router.get('/', async (req, res) => {
   try {
@@ -36,19 +18,19 @@ router.get('/', async (req, res) => {
     const recipes = recipeData.map((recipe) =>
       recipe.get({ plain: true })
     );
-    const recipeLarge = recipes.splice(0,2)
+    // const recipeLarge = recipes.splice(0, 4)
     const recipeSmall = recipes
-    console.log(recipeLarge)
+    // console.log(recipeLarge)
     console.log(recipeSmall)
     if (req.session.logged_in) {
       res.render('homepage', {
-        recipeLarge, recipeSmall,
+        recipeSmall,
         logged_in: req.session.logged_in,
         username: req.session.username
       });
     } else {
       res.render('homepage', {
-        recipeLarge, recipeSmall
+        recipeSmall
       });
     }
   } catch (err) {
@@ -66,7 +48,7 @@ router.get('/recipe/:id', async (req, res) => {
       return;
     }
     const recipe = recipeData.get({ plain: true });
-    res.render('recipe', {recipe, username: req.session.username});
+    res.render('recipe', { recipe, username: req.session.username });
   } catch (err) {
     res.status(500).json(err);
   };
