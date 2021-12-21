@@ -52,6 +52,11 @@ main {
   font-weight: 600;
   margin-left: 0.5em;
 }
+.navbar-light .navbar-brand:hover {
+  color: rgb(99, 99, 99);
+  transition: width 2s;
+  font-size: 1.85em;
+}
 
 .navbar-light .navbar-nav .nav-link {
   position: relative;
@@ -68,7 +73,7 @@ main {
 
 .navbar-light .navbar-nav .nav-link:hover {
   font-weight: 500;
-  color: black;
+  color: rgb(99, 99, 99);
 }
 
 .navbar-light .navbar-toggler {
@@ -124,11 +129,12 @@ li.nav-item {
 }
 
 /* Cards */
-.top-cards {
+/* .top-cards {
   margin-bottom: 3%;
   justify-content: center;
   display: flex;
-}
+} */
+
 .small-cards {
   justify-content: center;
   display: flex;
@@ -138,6 +144,21 @@ li.nav-item {
 .btn-orange {
   background-color: orange;
   color: var(--white);
+}
+.btn-orange:hover {
+  border: 2px solid orange;
+  transition: width 2s;
+  color: rgb(99, 99, 99);
+}
+.signup-btn {
+  background-color: rgb(154, 154, 154);
+  color: var(--white);
+}
+.signup-btn:hover {
+  border: 2px solid orange;
+  background-color: orange;
+  transition: width 2s;
+  color: rgb(99, 99, 99);
 }
 
 .card-text,
@@ -262,14 +283,6 @@ h5 {
   background-size: 100%;
 }
 
-/* login page css*/
-
-.btn-secondary:hover {
-  background-color: orange;
-  color: black;
-  border: none;
-}
-
 /* account page */
 .form-top {
   width: 50%;
@@ -318,14 +331,11 @@ h5 {
 td {
   text-align: left;
 }
-/* account-recipe page */
-.ms-auto {
-  color: var(--gray);
-  margin-bottom: -1em;
-}
 
-.ms-auto:hover {
-  color: orange;
+/* account page */
+.account-pg-btn {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* account with no recipe page */

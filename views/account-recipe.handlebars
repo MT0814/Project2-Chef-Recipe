@@ -11,9 +11,9 @@
                     <p class="card-text">{{recipe.dishDesc}}</p>
 
                     <br />
-                    <div class="hstack">
-                        <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange mt-3" id="recipe-btn">Recipe</a>
-                        <div class="ms-auto"><i class="fa fa-trash-o" data-id="{{recipe.id}}" type="submit" style="font-size:35px;"></i></div>
+                    <div class="account-pg-btn">
+                        <a href="/api/recipe/{{recipe.id}}" class="btn btn-orange text-center" id="recipe-btn">Recipe</a>
+                        <a class="btn btn-orange delete-btn text-center" data-id="{{recipe.id}}" type="submit">Delete</a>
                     </div>
                 </div>
             </div>

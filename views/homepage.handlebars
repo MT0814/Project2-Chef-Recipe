@@ -1,6 +1,6 @@
 <!--Top cards -->
 <div class="container-fluid" id="recipes">
-  
+
 
   <div class="row">
     {{#each recipeSmall as |recipe|}}
@@ -9,10 +9,12 @@
         <a href="/api/recipe/{{recipe.id}}" id="recipe-btn">
           <img src="{{recipe.dishPic}}" class="card-img-top" alt="{{recipe.dish}}">
           <div class="card-body">
-            <h5 class="card-title">{{recipe.dish}}</h5>
-            <p class="card-text">{{recipe.dishDesc}}</p>
-            <span class="bywho">By {{user.name}}</span>
-            <br>
+            <h5 class="card-title mb-2">{{recipe.dish}}</h5>
+            <p class="card-text mb-2">{{recipe.dishDesc}}</p>
+            <p class="card-text"> By {{user.name}}</p>
+            {{!-- <span class="bywho">By {{user.name}}</span> --}}
+
+
         </a>
       </div>
     </div>
