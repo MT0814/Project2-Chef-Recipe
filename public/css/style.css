@@ -81,7 +81,8 @@ li.nav-item {
 
 .plus-btn {
   color: orange;
-  font-size: 1.25em;
+  font-size: 1.2em;
+  font-weight: 200;
 }
 .plus-btn:hover {
   color: black;
