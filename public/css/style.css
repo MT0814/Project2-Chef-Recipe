@@ -161,6 +161,17 @@ li.nav-item {
   color: rgb(99, 99, 99);
 }
 
+.delete-btn {
+  background-color: rgb(154, 154, 154);
+  color: var(--white);
+}
+.delete-btn:hover {
+  border: 2px solid orange;
+  background-color: orange;
+  transition: width 2s;
+  color: rgb(99, 99, 99);
+}
+
 .card-text,
 .card-title {
   text-overflow: ellipsis;
