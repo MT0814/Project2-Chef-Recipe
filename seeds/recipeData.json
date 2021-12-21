@@ -1,9 +1,9 @@
 [
   {
+    "id":1,
     "user_id": 1,
     "dish": "Asparagus, Mushroom, Leek, and Cheese Galette",
     "dishPic": "/images/savory-spring-vegetable-galettes-vicky-wasik-leeks-asparagus-mushroom.webp",
-    "chef": "Daniel Gritzer",
     "prepTime": "2 hr 30 mins",
    "nutrition_facts":"268 calories, 8g fat (3g saturated fat), 83mg cholesterol, 560mg sodium, 6g carbohydrate (5g sugars, 0 fiber), 40g protein.",
     "dishDesc": "A crispy, flaky, and buttery free-form crust wraps around a savory filling of spring ingredients—tender asparagus, melted leeks, and earthy mushrooms, with Fontina cheese tying everything together.",
@@ -14,10 +14,10 @@
     "directions4": "In a small bowl, drizzle reserved asparagus tips with olive oil, season with salt, and toss to coat lightly and evenly. Arrange asparagus tips on top of exposed filling in center of the galette. Brush egg over chilled dough in a thin, even layer (including under each flap). This will give the crust a glossy, golden sheen and help bind the pieces together. Bake until galette is golden brown around the edges and bubbling in the center, about 45 minutes longer. Let cool 5 minutes, then slice into wedges and serve warm."
     },
   {
+    "id":2,
     "user_id": 2,
     "dish": "Lemony Broiled Potatoes With Halloumi Cheese",
     "dishPic": "/images/broiling-potato-haloumi.webp",
-    "chef": "Michael Harlan Turkell",
     "prepTime": "30 mins",
     "nutrition_facts": "89 calories, 1g fat (0 saturated fat), 0 cholesterol, 149mg sodium, 17g carbohydrate (3g sugars, 1g fiber), 2g protein. Diabetic Exchanges: 1 starch.",
     "dishDesc": "Browned on top, creamy on bottom, and bright with lemon, these broiled potatoes topped off with melty halloumi cheese combine the best of roast potatoes and gratin.",
@@ -28,6 +28,7 @@
     "directions4": "Sprinkle oregano on top and serve."
   },
   {
+    "id":3,
     "user_id": 3,
     "dish": "Carciofi alla Romana: The Other Delicious Roman Artichoke Dish",
     "dishPic": "/images/artichokes-ala-romana.webp",
@@ -40,7 +41,9 @@
     "directions3": "Add olive oil and wine to a pot just large enough to hold all the artichokes closely side by side, so that they can sit flat with their stem sides up. Arrange artichokes in pot and season with salt and pepper. Bring pot to a simmer over medium-high heat, then lower heat to a bare simmer, cover, and cook until artichokes are fork-tender, 20 to 30 minutes. (Smaller artichokes may not take as long.)",
     "directions4": "Remove from heat and transfer artichokes to a platter, stem sides up. Drizzle with cooking juices, along with some fresh olive oil and a light sprinkling of reserved herb mixture. Serve warm or at room temperature."
   },  
-  {
+
+  { 
+    "id":4,
     "user_id": 4,
     "dish": "Grilled Oysters Recipe",
     "dishPic": "/images/grilled-oysters.webp",
@@ -55,6 +58,7 @@
     
   },
   {
+    "id":5,
     "user_id": 5,
     "dish": "Charred Asparagus With Miso Béarnaise Sauce Recipe",
     "dishPic": "/images/asparagus-miso-bearnaise.webp",
@@ -68,6 +72,7 @@
     "directions4": "Add half of the asparagus to the preheated cast iron skillet and arrange in a single layer. Cook, turning occasionally, until spears are lightly charred all over and just cooked through, 4 to 6 minutes for thin spears, 5 to 8 minutes for thick spears. Carefully add half of the vegetable oil to the skillet, toss to coat asparagus with oil, and season with salt and pepper to taste. Transfer asparagus to a warmed serving plate. Repeat with remaining asparagus and vegetable oil. Serve immediately, passing béarnaise sauce at the table."
   },  
   {
+    "id":6,
     "user_id": 6,
     "dish": "Mashed Potatoes",
     "dishPic": "/images/mashed-potatoes.webp",
@@ -81,6 +86,7 @@
     "directions4": "It's a worthy utensil to have in your kitchen! I own and recommend this OXO masher, especially if you like slightly chunky mashed potatoes. Or this smooth OXO masher, if you prefer smoother mashed potatoes. (Both are Amazon affiliate links.)"
   },
   {
+    "id":7,
     "user_id": 7,
     "dish": "Obe Ata (Nigerian Red Pepper Sauce) Recipe",
     "dishPic": "/images/Obe-Ata.webp",
@@ -94,6 +100,7 @@
     "directions4": "If serving with chicken, add cooked chicken to the Dutch oven and simmer until chicken is warmed through, about 15 minutes. Serve with warm rice and garnish with torn basil leaves, if desired."
   },
   {
+   "id":8,
     "user_id": 8,
     "dish": "Kimbap (Korean Seaweed Rice Rolls) Recipe",
     "dishPic": "/images/Labaniyeh-bil-Ruz.webp",
@@ -107,6 +114,7 @@
     "directions4": "To serve, ladle the rice into shallow bowls and, if using, top with the toasted nuts and/or dried mint."
   },
   {
+  "id":9,
     "user_id": 9,
     "dish": "Glossy Fudge Brownies Recipe",
     "dishPic": "/images/Glossy-Fudge-Brownies.webp",
