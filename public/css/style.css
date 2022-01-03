@@ -107,15 +107,15 @@ li.nav-item {
 .tooltip-1 .tooltip1text {
   visibility: hidden;
   width: 8em;
-  background-color: orange;
-  color: #fff;
+
+  color: orange;
   text-align: center;
   border-radius: 6px;
   /* padding: 2px 1px 2px 1px; */
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 100%;
+  top: 100%;
   left: 50%;
   margin-left: -60px;
   /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
@@ -146,8 +146,8 @@ li.nav-item {
   color: var(--white);
 }
 .btn-orange:hover {
-  border: 2px solid orange;
-  transition: width 2s;
+  /* border: 2px solid orange;
+  transition: width 2s; */
   color: rgb(99, 99, 99);
 }
 .signup-btn {
@@ -155,9 +155,9 @@ li.nav-item {
   color: var(--white);
 }
 .signup-btn:hover {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   background-color: orange;
-  transition: width 2s;
+  /* transition: width 2s; */
   color: rgb(99, 99, 99);
 }
 
@@ -166,9 +166,9 @@ li.nav-item {
   color: var(--white);
 }
 .delete-btn:hover {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   background-color: orange;
-  transition: width 2s;
+  /* transition: width 2s; */
   color: rgb(99, 99, 99);
 }
 
